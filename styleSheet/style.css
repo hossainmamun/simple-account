@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+h2 {
+  font-family: "Karantina", cursive;
+}
+
+#login {
+  padding: 50px 0;
+}
+
+#login h2 {
+  text-align: center;
+  margin: 20px 0;
+  text-transform: capitalize;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+#login button {
+  padding: 8px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+#transition {
+  background-color: darkolivegreen;
+  display: none;
+  padding: 100px 0;
+}
+
+#transition .display-balance .card {
+  background-color: #22223b;
+  padding: 20px;
+}
+
+#transition .display-balance span {
+  text-transform: capitalize;
+  color: #fff;
+  display: block;
+  margin: 10px 0;
+}
+
+#transition .display-balance p {
+  color: #fff;
+  font-size: 20px;
+}
+
+#transition .display-balance p > span {
+  display: inline;
+  font-size: 20px;
+}
+
+#transition .deposit-withdraw h3 {
+  font-size: 22px;
+  text-transform: capitalize;
+  color: #fff;
+  margin: 10px;
+}
+
+#transition .deposit-withdraw .card {
+  background-color: #002855;
+  padding: 20px;
+}
+
+#transition .deposit-withdraw button {
+  padding: 8px 20px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
